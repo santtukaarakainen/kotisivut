@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+
+  <link rel="stylesheet" href="layout.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Santtu Kaarakainen</title>
+
+</head>
+
+<body>
+
+    <div id="page">
+
+        <div id="header"> 
+
+            <div class="bg-text">
+            <h1>Santtu Kaarakainen</h1>
+            <p style="color: white">ICT-engineer</p>
+            </div> 
+
+        </div>
+
+       <div id="menu">  
+            <ul>
+                <li><a href="index.html">Etusivu</a></li>
+                <li><a class="active" href="portfolio.html">Portfolio</a></li>
+                <li><a href="harrastukset.html">Harrastukset</a></li>
+              </ul>
+        </div>
+
+        <div id="content">
+
+            <div id="content-left" class="fade-in-text">
+                <!-- Laajempi kokemus -->
+                <h2>📁 Työkokemus</h2>
+                <b>• 3.4.-3.6.2023 Saarijärven kaupunki:</b> työsuhde koulunkäyntiavustajana (+ sijaisuuksia
+                opettajana)<br><br>
+                <b>• 20.6.-15.7.2022 Leader Viisari:</b> kesätyöntekijä, edustustyö, somevastaava<br><br>
+                <b>• 2021-2022 Saarijärven kaupunki:</b> liikuntakerhon ohjaaja<br><br>
+                <b>• 14.7.-28.7.2021 Tokmanni Saarijärvi Jyväskyläntie:</b> kesätyöntekijä<br><br>
+                <b>• 7.6.-2.7.2021 Saarijärven Seudun Kuulo:</b> IT-tukihenkilö jäsenille, verkkosivujen ylläpitoasioita<br><br>
+                <b>• 2021 Saarijärven seudun Kuulo Ry:n</b> verkkosivuvastaava (sivujen suunnittelu ja ohjelmointi, sekä niiden
+                ylläpitäminen)<br>
+                <br>
+                <br>
+                <h2>📕 Koulutus</h2>
+                <b>• Saarijärven lukio:</b> ylioppilastutkinto<br>
+                <i>2020-2023</i><br><br>
+                <b>• Varusmiespalvelus:</b> Kainuun prikaati, PSVP, viestiasema-AUK, res. kersantti<br>
+                <i>2023-2024</i><br><br>
+                <b>• JAMK:</b> tieto- ja viestintätekniikan insinööritutkinto<br>
+                <i>2024➡</i>
+                <br>
+                <br>
+                <h2>📌 Projekteja</h2>
+                <a href="https://gitlab.labranet.jamk.fi/ae8650">• GitLab</a>
+            </div>
+
+            <div id="content-right" class="fade-in-text-2">
+
+                <!-- Osaaminen progress bareilla -->
+                <h2>🧾 Osaaminen</h2>
+                <label for="file"><b>Ohjelmointi:</b> <i>Python-perusosaaminen, C++-perusteet, sujuva web-kehitys (HTML, CSS)</i></label>
+                <br><br>
+                50% <progress id="file" value="50" max="100"> 32% </progress>
+                <br><br><br>
+
+                <label for="file"><b>Windows:</b> <i>Sujuva Windowsin käyttö, edistynyt vianmääritys, tehnyt töitä ICT-tukihenkilönä</i></label>
+                <br><br>
+                90% <progress id="file" value="90" max="100"> 32% </progress>
+                <br><br><br>
+
+                <label for="file"><b>Linux:</b> <i>Sujuva Linuxin käyttö ja ylläpito, Debian-pohjaisia distroja daily driverina useita vuosia</i></label> 
+                <br><br>
+                60% <progress id="file" value="60" max="100"> 32% </progress>
+                <br><br><br>
+
+                <label for="file"><b>Tekoäly:</b> <i>Tehokas tiedonhankinta ja työskentely tekoälyn avulla</i></label>
+                <br><br>
+                70% <progress id="file" value="70" max="100"> 32% </progress>
+                <br><br><br>
+
+                <label for="file"><b>Verkko ja verkottaminen:</b> <i>Hyvä ymmärrys IP-verkoista ja palvelimen ylläpidosta</i></label>
+                <br><br>
+                60% <progress id="file" value="60" max="100"> 32% </progress>
+                <br><br><br>
+
+                <label for="file"><b>Työskentely ihmisten kanssa:</b> <i>Selkeä ja vakuuttava puhuminen, tehokas asiakaspalvelu</i></label>
+                <br><br>
+                90% <progress id="file" value="90" max="100"> 32% </progress>
+
+                <br><br>
+
+            </div>
+
+        </div>
+
+        <div id="footer" class="keskitys">
+          <p><i>Santtu Kaarakainen 2024 • AE8650@student.jamk.fi • 0451786952</i></p>
+        </div>    
+
+    </div>
+
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+            document.getElementById("header").style.fontSize = "10px";
+          } else {
+            document.getElementById("header").style.fontSize = "1em";
+          }
+        }
+        </script>
+
+</body>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+
+  <link rel="stylesheet" href="layout.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- meta-määritys -->
+
+  <title>Santtu Kaarakainen</title>
+
+</head>
+
+<body>
+
+    <div id="page">
+
+        <div id="header"> 
+
+            <div class="bg-text">
+            <h1>Santtu Kaarakainen</h1>
+            <p style="color: white">ICT-engineer</p>
+            </div> 
+
+        </div>
+
+       <div id="menu">  
+            <ul>
+                <li><a class="active" href="index.html">Etusivu</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="harrastukset.html">Harrastukset</a></li>
+              </ul>
+        </div>
+
+        <div id="content">
+          <!-- Yleistä-esittelyboksi -->
+            <div id="content-left" class="fade-in-text keskitys"> 
+                <h2 style="text-align: left;">📖 Yleistä</h2>
+                <p style="text-align: left;">
+                Morjensta! Olen 20-vuotias insinööriopiskelija Jyväskylästä. Alunperin olen kotoisin Saarijärveltä. Opiskelen JAMK:issa tieto- ja viestintätekniikan insinööriksi.
+                <br>
+                <br>
+                Työntekijänä olen huolellinen ja ahkera, ja olen saanut siitä paljon tunnustusta. En jätä asioita puolitiehen, vaan teen ne kunnolla alusta loppuun. 
+                Kysyn apua, jos sitä tarvitsen, ja olen aina valmis oppimaan uutta. Olen kuitenkin työyhteisössä myös sosiaalinen ja hyväntuulinen kaveri, joka ei ota asioita turhamaisen vakavasti.
+                <br>
+                <br>
+                Vapaa-ajallani harrastan painonnostoa, musiikin tuottamista sekä videopelejä.
+                <br>
+                <br>
+                </p>
+                <img src="IMG_7428.JPG" width="222" class="round">
+            </div>
+
+            <div id="content-right" class ="fade-in-text-2">
+              <!-- Tiivistetty aikajana kokemuksesta -->
+                <div class="timeline">
+                    <div class="container left">
+                      <div class="content">
+                        <h2>2020-2023</h2>
+                        <p>Ylioppilastutkinto (Saarijärven lukio) työsuhteita (Leader Viisari, Saarijärven seudun Kuulo ry, Tokmanni)</p>
+                      </div>
+                    </div>
+                    <div class="container right">
+                      <div class="content">
+                        <h2>2023-2024</h2>
+                        <p>Työsuhde koulunkäynninohjaajana (Saarijärven yhtenäiskoulu), varusmiespalvelus (viestiasemalinjan aliupseerikurssi)</p>
+                      </div>
+                    </div>
+
+                <div class="timeline">
+                    <div class="container left">
+                        <div class="content">
+                        <h2>2024-</h2>
+                        <p>Tieto- ja viestintätekniikan insinööriopinnnot JAMK:illa</p>
+                        </div>
+                    </div>
+                    <div class="container right">
+                        <div class="content">
+                        <h2>Jatkuu..</h2>
+                        </div>
+                    </div>
+
+                </div>
+             </div> 
+            </div>
+
+        </div>
+
+        <div id="footer" class="keskitys">
+            <p><i>Santtu Kaarakainen 2024 • AE8650@student.jamk.fi • 0451786952</i></p>
+        </div>    
+
+    </div>
+
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+            document.getElementById("header").style.fontSize = "10px";
+          } else {
+            document.getElementById("header").style.fontSize = "1em";
+          }
+        }
+        </script>
+
+</body>

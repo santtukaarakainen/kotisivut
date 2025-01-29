@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+
+    <link rel="stylesheet" href="layout.css">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+    <title>Santtu Kaarakainen</title>
+  
+  </head>  
+
+<body>
+
+    <div id="page">
+
+        <div id="header"> 
+
+            <div class="bg-text">
+            <h1>Santtu Kaarakainen</h1>
+            <p style="color: white">ICT-engineer</p>
+            </div> 
+
+        </div>
+
+       <div id="menu">  
+            <ul>
+                <li><a href="index.html">Etusivu</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a class="active" href="harrastukset.html">Harrastukset</a></li>
+              </ul>
+        </div>
+
+        <div id="content">
+
+          <div id="content-left" class="fade-in-text">
+            <!-- Harrastukset -->
+              <h2>⚽ Liikunta</h2>
+              Olen harrastanut painonnostoa kuntosalilla yläasteikäisestä asti. Käyn treenaamassa säännöllisesti 4-5 kertaa viikossa, tavoitteenani hyvän fysiikan ja terveyden ylläpitäminen. Harrastan myös höntsäillen  joukkuelajeja kuten jalkapalloa, koripalloa ja jääkiekkoa säännöllisesti kaveriporukoiden kesken.
+              <br><br>
+              <h2>🎵 Musiikki</h2>
+              Aloin tuottamaan itse musiikkia ystävästäni inspiroituneena 13-vuotiaana, ja monitorien jumputuksessa kuluukin aikaa edelleen useampana päivänä viikossa. Pääasiassa olen keskittynyt tuottamiseen muille, sillä olen tuottajana ja miksaajana melko kovalla tasolla, mutta olen myös kirjoittanut ja äänittänyt omaa musiikkia.
+              <br><br>
+              <h2>🎮 Videopelit</h2>
+              Aloin pelaamaan videopelejä jo taaperoikäisenä isäni kanssa. Syvempää ymmärrystä tietotekniikasta aloinkin saamaan yläasteikäisenä pelien ansiosta, kun koodailin Counter-Strike-apuohjelmia. Vaikka pelaamiseen jää nykyään vähemmän aikaa muiden kiireiden vuoksi, on se silti edelleen mieluinen harrastus.
+
+          </div>
+
+          <div id="content-right" class ="fade-in-text-2">
+            <img class="image" src="musa.JPG" width="222">
+            <img class="image" src="gymi.JPG" width="222">
+            <img class="image" src="pelit.JPG" width="222">
+            <p style="text-align: center"><i>Kuvia harrastuksistani</i></p>
+
+        </div>
+      </div>
+      
+        <div id="footer" class="keskitys">
+            <p><i>Santtu Kaarakainen 2024 • AE8650@student.jamk.fi • 0451786952</i></p>
+        </div>    
+
+    </div>
+
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+            document.getElementById("header").style.fontSize = "10px";
+          } else {
+            document.getElementById("header").style.fontSize = "1em";
+          }
+        }
+    </script>
+
+</body>
